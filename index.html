@@ -9,5 +9,72 @@
 </head>
 <body>
     
+    <!-- Left section with the logo and the background picture -->
+    <div class="left-section">
+        <img src="./images/bjj.jpg" alt="background image of two brazilian jiu-jitsu fighters fighting">
+        <div class="title">
+            <p>Frankistan Jiu-Jitsu</p>
+        </div>
+    </div>
+
+    <!-- Right section with the form -->
+    <div class="right-section">
+
+        <!-- Top section with text -->
+        <div class="top-section">
+            <p>This is not a real online service! You know you need something in your life to help you realize your biggest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+
+        <!-- Form section at the bottom -->
+        <div class="bottom-section">
+            <form action="http://httpbin.org/post" method="post">
+                <div class="form-content">
+                    <div class="form-title">
+                        <h1>Let's do this!</h1>
+                    </div>
+                    <div class="form">
+                        <div class="left">
+                            <div>
+                                <label for="firstName">FIRST NAME <span style="color: red;">*</span></label>
+                                <input type="text" id="firstName" required maxlength="25">
+                            </div>
+
+                            <div>
+                                <label for="email">EMAIL <span style="color: red;">*</span></label>
+                                <input type="email" id="email" required>
+                            </div>
+
+                            <div>
+                                <label for="password">PASSWORD <span style="color: red;">*</span></label>
+                                <input type="password" id="password" required>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div>
+                                <label for="lastName">LAST NAME <span style="color: red;">*</span></label>
+                                <input type="text" id="lastName" required>
+                            </div>
+
+                            <div>
+                                <label for="phone">PHONE NUMBER <span style="color: red;">*</span></label>
+                                <input type="number" required>
+                            </div>
+
+                            <div>
+                                <label for="confirmPassword">CONFIRM PASSWORD <span style="color: red;">*</span></label>
+                                <input type="password" id="confirmPassword" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-submit">
+                    <button type="button">Create Account</button>
+                    <p>Already have an account ? <a href="">Log in.</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
